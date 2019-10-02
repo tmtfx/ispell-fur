@@ -1,0 +1,311 @@
+LICENCE PUBLICHE GJENERICHE (GPL) DAL PROGJET GNU Version 2, Jugn 1991 
+
+      Copyright (C)  1989, 1991  Free Software  Foundation, Inc.
+         59 Temple Place, Suite 330, Boston, MA 02111-1307 USA                           
+
+Traduzion curade di  SERLING s.c. a r.l., vie Volturno  29, 33100 Udin.
+Ultin inzornament 31 di Dicembar dal 2004.
+
+Cualsisei al pues  copiâ e dâ fûr copiis leterâls  di chest document di
+licence, ma no je permetude la modificazion.
+
+ Premetidure
+
+Lis licencis de plui part dai programs a àn il fin di gjavâ al utent la
+libertât di condividi  e di modificâ il program stes.  Ben al contrari,
+la Licence Publiche Gjeneriche GNU e je indreçade a garantî la libertât
+di  condividi e  di modificâ  il programari  libar, par  garantî che  i
+programs  a sedin  libars  par ducj  i lôr  utents.  Cheste Licence  si
+apliche ae maiorance dai programs de  Free Software Foundation e a ogni
+altri program che  i siei autôrs a àn decidût  di doprâ cheste Licence.
+Cierts  altris  programs de  Free  Software  Foundation a  son  invezit
+cuvierts de Licence Publiche Gjeneriche  Minôr. Cualsisei al pues doprâ
+cheste Licence pai siei programs.
+
+Cuant  che  si   fevele  di  programari  libar   (free  software),  si 
+riferissisi ae libertât, no al presit.  Lis nestris Licencis (la GPL e 
+la LGPL) a son progjetadis par garantî che ognidun al vedi la libertât 
+di dâ fûr  copiis dal programari libar  (e fâsi paiâ par  chest, se al 
+vûl), che ognidun al ricevi il codiç  font o che lu puedi otignî se lu 
+vûl, che  ognidun al puedi  modificâ il program  o doprâ sôs  parts in 
+gnûfs programs libars e che ognidun al sepi di podê fâ chestis azions. 
+
+Par protezi i dirits dal utent,  o vin dibisugn di creâ des limitazions
+che a  proibissin a cualsisei  di dineâ chescj  dirits o di  domandâ di
+rinunciâi. Chestis limitazion si rindin in ciertis responsabilitâts par
+cui che al da fûr copiis dal programari e par cui che lu al modifiche.
+
+Par esempli, cui  che al da fûr  copiis di un program  cuviert di GPL, 
+sedi gratis sedi  daûr di un compens, al à  di concedi ai destinataris 
+ducj  i  dirits che  al  à  ricevût. Al  ancje  à  di sigurâsi  che  i 
+destinataris a ricevin  o che a puedin  otignî il codiç font.  Al à di 
+mostrâur chestis cundizions  di licence, in mût che lôr  a cognossin i 
+lôr dirits.                                                            
+
+O protezìn i dirits dal utent  in doi mûts: (1) protezint il programari
+cuntun dirit  di riproduzion, e  (2) ufrint une  licence che e  dedi il
+permès legâl di copiâ, dâ fûr e modificâ il Program.
+
+Cun di plui,  par protezi ogni autôr e noaltris  stes, o volìn sigurâsi
+che ognidun  al capissi che no  son garanziis pai programs  cuvierts di
+GPL. Se il program  al ven modificât di cualchidun altri  e tornât a dâ
+fûr,  o volìn  che  i  acuirents a  sepin  che chest  che  a  àn nol  è
+l'origjinâl, in mût  che ogni probleme metût dentri di  altris nol coli
+su la reputazion dai autôrs origjinaris.
+
+Cun di plui, ogni program libar al è menaçât di un continui dai brevets
+sui programs. O volìn evitâ il pericul che cui che al torne a dâ fûr un
+program libar al otegni la proprietât di brevets, fasint in pratiche il
+program une robe di sô  proprietât. Par prevignî cheste pussibilitât, o
+vin sclarît che ogni brevet al vedi  di jessi concedût in licence di ûs
+a cualsisei, o che nol vedi di vê nissune limitazion di licence di ûs.
+
+A  vegnin  cumò  i  tiermins  e lis  cundizions  precîs  pe  copie,  pe
+distribuzion e pe modificazion.
+
+ LICENCE PUBLICHE  GJENERICHE GNU TIERMINS  E CUNDIZIONS PE  COPIE, PE 
+ DISTRIBUZION E PE MODIFICAZION                                        
+
+ 0. Cheste Licence si apliche a ogni program o a ogni altre opare che a
+vedin dentri  une note di bande  dal detentôr dal dirit  di riproduzion
+che e disi che  cheste opare e pues jessi dade fûr  sot dai tiermins di
+cheste Licence Publiche Gjeneriche. Il tiermin "Program" di ca indevant
+si  riferìs a  ogni program  o opare  cussì definide,  e la  espression
+"opare basade  sul Program"  e segne  sedi il  Program sedi  ogni opare
+calcolade "derivade"  su la fonde de  leç sul dirit di  riproduzion; in
+altris peraulis, une opare cun dentri il Program o une sô part, sedi in
+mût  leterâl  sedi modificât  o  voltât  intune  altre lenghe.  Di  chi
+indevant la traduzion e je in  ogni câs calcolade une "modificazion". A
+vegnin cumò metûts in liste i dirits dai beneficiaris de licence.
+
+Ativitâts diviersis de copiadure, de  distribuzion e de modificazion no
+son cuviertis di cheste Licence e a son di fûr de sô influence. L'at di
+eseguî il Program nol ven limitât,  e l'output dal program al è cuviert
+di cheste  Licence dome se  il so contignût al  è une opare  basade sul
+Program  (in  maniere indipendente  dal  fat  che  al sedi  stât  creât
+eseguint il Program). Su la fonde de nature dal Program il so output al
+pues jessi o no cuviert di cheste Licence.
+
+ 1.  Al è  lecit copiâ  e dâ  fûr copiis  leterâls dal  codiç font  dal
+Program compagn  di cemût  che al  ven ricevût,  cun cualsisei  mieç, a
+cundizion che e  vegni riprodusude a clâr su ogni  copie une juste note
+di dirit  di riproduzion  e di  assence di  garanzie; che  si mantegnin
+intats  ducj i  riferiments  a  cheste Licence  e  ae  assence di  ogni
+garanzie; che si dedi a ogni altri destinatari dal Program une copie di
+cheste Licence intune cul Program.
+
+Si pues  domandâ un paiament  pal trasferiment  fisic di une  copie dal
+Program,  si pues  ancje domandâ,  a  discrezion, un  paiament par  une
+cuvierzidure assicurative.
+
+ 2. Al è lecit modificâ la sô  copie o copiis dal Program, o sôs parts,
+creant alore  une opare basade  sul Program, e  copiâ o dâ  fûr chestis
+modificazions o  cheste opare daûr dai  tiermins dal come parsore  1, a
+pat che a sedin sodisfatis dutis lis cundizions ca sot:
+
+ a) Si à  di segnâ a clâr tai  files che a son copiis  modificadis e la
+date di ogni modificazion.
+
+ b) Si à di fâ in mût che  ogni opare dade fûr o publicade, che in part
+o te sô totalitât e derivi dal Program o di sôs parts, e sedi concedude
+dute interie in licence a gratis  a ogni tierce part, daûr dai tiermins
+di cheste Licence.
+
+ c)  Se  normalmentri  il  program  modificât al  lei  comants  in  mût
+interatîf cuant  che al  ven fat, si  à di  fâ in mût  che sul  tacâ de
+esecuzion interative  usuâl, cheste e  stampi un messaç cun  dentri une
+juste note di dirit di riproduzion e  di assence di garanzie (o ben che
+e specifichi il gjenar di garanzie che si ufrìs). Il messaç al à cun di
+plui di specificâ che  cualsisei al pues tornâ a dâ  fûr il program aes
+cundizions descritis chi e al à di segnâ cemût cjatâ cheste Licence. Ma
+se il  program di partence  al è  interatîf ma normalmentri  nol stampe
+chest messaç, nol covente che une opare basade sul Program lu stampi.
+
+Chestis carateristichis domandadis si aplichin ae opare modificade tal 
+so  complès.  Se  a  son  parts che  si  puedin  identificâ  de  opare 
+modificade che  no sedin derivadis  dal Program  e che a  puedin jessi 
+calcoladis cun buine reson tant  che lavôrs indipendents, alore cheste 
+Licence e  i siei tiermins  no si aplichin  a chestis parts  cuant che 
+chestis a vegnin dadis fûr par lôr  cont. Ma se chestis parts a vegnin 
+dadis fûr dentri  intun prodot che al è une  opare basade sul Program, 
+la distribuzion di cheste opare dute  interie e à di fâsi tai tiermins 
+di cheste Licence,  e lis sôs normis par altris  utents si slargjin su 
+la opare dute interie, e duncje a  ogni sô part, cualsisei che al sedi 
+l'autôr.                                                               
+
+Duncje, nol è  tes intenzions di cheste sezion di  svantâ dirits, ni di
+contestâ dirits su  oparis scritis ad in plen  di altris; l'intindiment
+al è  impen chel di  esercitâ il dirit  di controlâ la  distribuzion di
+oparis derivadis dal Program o che lu tegnin dentri.
+
+Cun  di plui,  la  agregazion semplice  di une  opare  no derivade  dal
+Program cul Program o cuntune opare derivade  di chest su di un mieç di
+memorizazion  o di  distribuzion, nol  è suficient  par meti  dentri la
+opare no derivade in cheste Licence.
+
+ 3. Al  è lecit copiâ  e dâ fûr  il Program (o  une opare basade  su di
+chest, tant che  pandût tal come 2)  in forme di codiç ogjet  o di podê
+eseguî daûr dai tiermins dai comis 1  e 2 parsore, a pat che si aplichi
+une di chestis cundizions:
+
+ a) che il Program al vedi  dongje il codiç font complet, intune forme 
+ che e puedi jessi  lete di un calcoladôr, e chest  codiç font al sedi 
+ furnît, daûr  des regulis  dai comis  1 e  2 parsore,  su di  un mieç 
+ doprât normalmentri pal scambi di programs.                           
+
+ b)  che il  Program  al vedi  dongje une  ufierte  scrite, valide  par
+almancul trê agns, di furnî a cualsisei che indi fasi domande une copie
+complete  dal codiç  font,  intune  forme che  e  puedi  jessi lete  di
+un  calcoladôr,  in cambi  di  un  compens no  plui  alt  dal cost  dal
+trasferiment fisic di cheste copie, che  e à di jessi furnide, daûr des
+regulis dai comis 1 e 2 parsore,  su di un mieç doprât normalmentri pal
+scambi di programs.
+
+ c) che  il Program al  vedi dongje lis  informazions che a  son stadis
+ricevudis pe pussibilitât di otignî il codiç font. Cheste alternative e
+je permetude  dome in câs di  distribuzions no comerciâls e  dome se il
+program al è stât  otignût in forme di codiç ogjet o  di podê eseguî in
+acuardi cu la letare b) chi parsore.
+
+Par "codiç font complet" di une  opare si intint la forme preferenziâl 
+doprade  par modificâ  une  opare. Par  un  program eseguibil,  "codiç 
+font  complet"  al  vûl  dî  dut   il  codiç  font  di  ducj  i  modui 
+contignûts  dentri,  plui ogni  file  associât  che al  definissi  lis 
+interfacis esternis dal program, plui i script doprâts par controlâ la 
+compilazion e  la instalazion dal  eseguibil. In ogni câs  nol covente 
+che il  codiç font furnît  nol tegni dentri nuie  che al sedi  dât fûr 
+normalmentri  (in  forme  font  o  in  formât  binari)  cui  principâi 
+components  dal  sisteme  operatîf  li  che  al  ven  fat  il  Program 
+(compiladôr, kernel,  e vie indevant),  fale che chescj  components no 
+acompagnin l'eseguibil.                                                
+
+Se la distribuzion dal eseguibil o dal codiç ogjet e je fate segnant un
+lûc di  li che si  puedi copiâlu, permeti la  copie dal codiç  font dal
+stes lûc al è calcolât une forme di distribuzion valide dal codiç font,
+ancje se copiâ il codiç font al è facoltatîf pal acuirent.
+
+ 4. Nol è  lecit copiâ, modificâ, sublicenziâ, o dâ  fûr il Program in 
+mûts  diviers di  chei  previodûts  a palês  di  cheste Licence.  Ogni 
+tentatîf di  copiâ, modificâ, sublicenziâ  o dâ  fûr il Program  nol è 
+autorizât, e al fasarà terminâ in  mût automatic i dirits garantîts di 
+cheste Licence. Di  chê altre bande ogni acuirent che  al vedi ricevût 
+copiis, o dirits, cuvierts di cheste  Licence di bande di personis che 
+a violin  la Licence tant che  segnât chi, no varan  invalidade la lôr 
+Licence, se si compuartin daûr di chê.                                 
+
+ 5. L'acuirent nol  è tignût a acetâ  cheste Licence, stant che  le e à
+firmade.  Di chê  altre bande  nissun  altri document  nol garantìs  il
+permès di modificâ  o dâ fûr il  Program o i lavôrs  derivâts di chest.
+Chestis azions  a son  proibidis de  leç par cui  che nol  acete cheste
+Licence; duncje, modificant o distribuint il Program o une opare basade
+sul program, si segne, tal fâ un tant, la acetazion di cheste Licence e
+duncje di  ducj i siei  tiermins e dutis  lis cundizions metudis  su la
+copie, su la distribuzion e su  la modificazion dal Program o di lavôrs
+basadis su di chest.
+
+ 6. Ogni volte che il Program o  une opare basade su di chest a vegnin 
+distribuîts, l'acuirente al  ricêf in mût automatic une  licence di ûs 
+di bande dal licenziatari origjinâl. Cheste licence e regole la copie, 
+la distribuzion e la modificazion  dal Program daûr di chescj tiermins 
+e di chestis  cundizions. No al è lecit imponi  limitazions di plui al 
+acuirent tal so  esercizi dai dirits chi garantîts. Cui  che al da fûr 
+programs cuvierts  di cheste Licence  nol scuen  in dut câs  imponi il 
+rispiet di cheste Licence a tierçs.                                    
+
+ 7.  Se, tant  che conseguence  dal judizi  di un  tribunâl, o  di une 
+imputazion pe violazion  di un brevet o par ogni  altre reson (no dome 
+par cuistions  di brevets),  a vegnin imponudis  cundizions che  a van 
+cuintri des cundizions di cheste licence, e chestis cundizions a sedin 
+detadis de cort, di acuardis tra lis parts o altri, chestis cundizions 
+no liberin nissun de osservazion di  cheste Licence. Se nol è pussibil 
+dâ fûr  un prodot intun  mût che al sodisfi  tal stes moment  i oblics 
+detâts di cheste Licence e altris oblics specifics, il prodot nol pues 
+jessi  dât fûr  in  nissune maniere.  Par esempli,  se  un brevet  nol 
+permetès a ducj chei che lu ricevin di tornâ a dâ fûr il Program cence 
+obleâ a paiâ  dirits, alore l'unic mût par sodisfâ  in chel istès timp 
+il brevet e cheste Licence al è di no dâ fûr il Program.               
+
+Se une cualsisei  part di chest come  e je ritignude no valide  o di no
+podê aplicâ  intune cualsisei circostance, e  à di in dut  câs di jessi
+aplicade  la idee  pandude di  chest  come; in  ogni altre  circostance
+invezit al à di jessi aplicât chest come tal so complès.
+
+No je  tes finalitâts di  chest come indusi i  utents a lâ  cuintri di 
+nissun brevet ni ogni altre  rivendicazion di dirits di proprietât, ni 
+di contestâ la validitât di  nissune di chestis rivendicazions; il fin 
+di chest come al  è dome chel di protezi la  integritât dal sisteme di 
+distribuzion dai  programs libars, che al  ven fat cul ûs  di licencis 
+publichis. Tantis personis a àn  contribuît cun gjenerositât ae grande 
+sielte  di  programs dâts  fûr  cun  chest  sisteme, fondantsi  su  la 
+aplicazion fedêl di  chest sisteme. L'autôr/donadôr al  pues decidi di 
+sô volontât  se al  à miôr  di dâ  fûr il  program zovantsi  di altris 
+sistemis,  e l'acuirent  nol  pues  imponi la  sielte  dal sisteme  di 
+distribuzion.                                                          
+
+Chest come al covente  par rindi il plui clâr che si  pues cheste che o
+crodin che e sedi une consecuence dal rest di cheste Licence.
+
+ 8.  Se in  cierts  paîs la  distribuzion  o l'ûs  dal  Program a  son 
+limitâts  di brevet  o  dal ûs  di interfacis  cuviertis  di dirit  di 
+riproduzion, il detentôr dal dirit di riproduzion origjinâl che al met 
+il  Program sot  di cheste  Licence al  pues zontâ  limits gjeografics 
+palês ae distribuzion, par escludi chescj paîs de distribuzion stesse, 
+in mût che il program al puedi  jessi dât fûr dome tai paîs no lassâts 
+fûr di cheste regule. In chest  câs i limits gjeografics a son cjapâts 
+dentri in cheste Licence e a 'ndi fasin part par ducj i efiets.        
+
+ 9. Tal câs  che al coventi la Free Software  Foundation e pues publicâ
+revisions  o gnovis  versions  di cheste  Licence Publiche  Gjeneriche.
+Chestis  gnovis versions  a  saran similis  a cheste  tal  spirt, ma  a
+podaran  jessi diferentis  tai detais  par cuvierzi  gnûfs problemis  e
+gnovis situazions.
+
+A ogni  version al ven  dât un numar  identificatîf. Se il  Program al 
+declare di jessi cuviert di une version particolâr di cheste Licence e 
+"di ogni  version seguitive",  l'acuirente al pues  sielzi se  lâ daûr 
+des  cundizions de  version  specificade  o di  une  seguitive. Se  il 
+Program nol  specifiche ce version di  cheste Licence si à  di aplicâ, 
+l'acuirente al pues  sielzi une cualsisei version  tra chês publicadis 
+de Free Software Foundation.                                           
+
+ 10.  Se  si  vûl  incorporâ  parts dal  Program  in  altris  programs 
+libars che  lis lôr cundizions  di distribuzion a sedin  diferentis di 
+chestis, al  è pussibil scrivi  al autore  dal Program par  domandâ la 
+autorizazion.  Pal programari  che il  so  dirit di  riproduzion al  è 
+detignût de Free Software Foundation, si  à di scrivi ae Free Software 
+Foundation;  cualchi volte  o  fasìn ecezions  aes  regulis di  cheste 
+Licence.  La  nestre decision  e  sarà  indreçade di  dôs  finalitâts: 
+mantignî la libertât di ducj  i prodots derivâts dal nestri programari 
+libar e fâ  che si condividi e  che si torni a doprâ  il programari in 
+gjenerâl.                                                              
+
+
+ NO JE GARANZIE
+
+ 11. STANT CHE IL PROGRAM AL È  CONCEDÛT IN ÛS A GRATIS, NO JE GARANZIE
+PAL PROGRAM, TAI LIMITS PERMETÛTS DES LEÇS IN VORE. SE NO SEGNÂT IN MÛT
+DIVIERS PAR SCRIT,  IL DETENTÔR DAL DIRIT DI RIPRODUZION  E CHÊS ALTRIS
+PARTS A FURNISSIN IL PROGRAM "CUSSÌ COME CHE AL È", CENCE NISSUN GJENAR
+DI  GARANZIE, NI  ESPLICITE  NI  IMPLICITE; UN  TANT  AL CJAPE  DENTRI,
+CENCE  LIMITÂSI A  CHEST, LA  GARANZIE IMPLICITE  DI COMERCIABILITÂT  E
+UTILIZABILITÂT PAR  UN FIN PARTICOLÂR. DUT  IL PERICUL CHE AL  TOCJE LA
+CUALITÂT E LIS PRESTAZIONS DAL PROGRAM  AL È DAL ACUIRENT SE IL PROGRAM
+AL VES DI RISULTÂ DIFIETÔS, L'ACUIRENT  SI CJAPE CARIC DAL COST DI OGNI
+MANUTENZION, RIPARAZION O MENDE CHE E COVENTI.
+
+ 12. NI  IL DETENTÔR DAL  DIRIT DI RIPRODUZION  NI ALTRIS PARTS  CHE A 
+PUEDIN  MODIFICÂ O  TORNÂ A  DÂ FÛR  IL PROGRAM  TANT CHE  PERMETÛT IN 
+CHESTE LICENCE A SON RESPONSABII PAR  DAMS AL ACUIRENT, FALE CHE CHEST 
+NOL SEDI  DOMANDÂT DES  LEÇS IN VORE  O CHE AL  RISULTI IN  UN ACUARDI 
+SCRIT. A SON CJAPÂTS DENTRI DAMS GJENERICS, SPECIÂI O INCIDENTÂI, TANT 
+CHE ANCJE I DAMS CHE A DERIVIN  DAL ÛS O DE IMPUSSIBILITÂT DI DOPRÂ IL 
+PROGRAM; UN TANT AL CJAPE DENTRI,  CENCE LIMITÂSI A CHEST, LA PIERDITE 
+DI DÂTS, LA CORUZION DAI  DÂTS, LIS PIERDITIS SOSTIGNUDIS DAL ACUIRENT 
+O  DI TIERÇS  E LA  INCAPACITÂT DAL  PROGRAM DI  INTERAGJÎ CUN  ALTRIS 
+PROGRAMS, ANCJE SE IL DETENTÔR O  ALTRIS PARTS A SON STADIS VISADIS DE 
+PUSSIBILITÂT DI CHESCJ DAMS.                                           
+
+                  FIN DAI TIERMINS E DES CUNDIZIONS
+
+GDB TF VERSION 1.0RC5 - COPYRIGHT (C) 2004 REGJON FRIÛL VIGNESIE JULIE,
+CENTRI FRIÛL LENGHE 2000

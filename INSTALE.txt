@@ -1,0 +1,18 @@
+Istruzions di instalazion
+----------------------------------------------------------------------------
+
+    1. Va in te directory dulà che al è stât scompatât l'archivi, si varès di
+       cjatâ dentri: "furlan.aff", "furlan.dic" e il "Makefile".
+       
+    2. Gambie il Makefile daûr ae tô instalazion di ispell, probabilmentri al
+       plui si scuen mudâ dome la directory di instalazion dai dizionaris
+       (INSTALLDIR). 
+       
+    3. Al prompt de shell scrîf: make
+       Al vegnarà creât il file "furlan.hash".
+       
+    4. Par instalâ, daspò vê otignût i permès necessaris, scrîf: make install
+    
+    5. Par doprâ il dizionari furlan: ispell -d furlan
+       o cun variabil di ambient DICTIONARY=furlan dome: ispell
+       

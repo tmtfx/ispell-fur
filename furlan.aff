@@ -1,0 +1,1100 @@
+nroffchars      ().\\*
+texchars        ()\[]{}<\>\\$*.%
+
+allaffixes off
+compoundwords off
+
+# Definizion caratars
+
+defstringtype "list" "nroff" ".list" ".txt"
+
+wordchars	a	A
+stringchar	à	À
+stringchar      á       Á	
+stringchar	â	Â
+wordchars	[b-c]	[B-C]
+stringchar	ç	Ç
+wordchars	[d-e]	[D-E]
+stringchar	è	È
+stringchar	é	É	#par peraulis forestis
+stringchar	ê	Ê
+wordchars	[f-i]	[F-I]
+stringchar	ì	Ì
+stringchar      í       Í	
+stringchar	î	Î
+wordchars	[j-o]	[J-O]
+stringchar	ò	Ò
+stringchar      ó       Ó	
+stringchar	ô	Ô
+wordchars	[p-s]	[P-S]
+stringchar	's	'S
+wordchars	[t-u]	[T-U]
+stringchar	ù	Ù
+stringchar      ú       Ú
+stringchar	û	Û
+wordchars	[v-z]	[V-Z]
+wordchars   [']
+boundarychars   [.]             # electronic adresses ("." is a regexp!)
+
+#
+# TeX
+#
+altstringtype "tex" "TeX" ".tex" ".ltx" ".bib"
+
+altstringchar   \\`a     à
+altstringchar   \\`A     À
+altstringchar   \\'a     á
+altstringchar   \\'A     Á
+altstringchar   \\^a     â
+altstringchar   \\^A     Â
+altstringchar   \\`e     è
+altstringchar   \\`E     È
+altstringchar   \\'e     é
+altstringchar   \\'E     É
+altstringchar   \\^e     ê
+altstringchar   \\^E     Ê
+altstringchar   \\`{\\i} ì
+altstringchar   \\`I     Ì
+altstringchar   \\'{\\i} í
+altstringchar   \\'I     Í
+altstringchar   \\^{\\i} î
+altstringchar   \\^I     Î
+altstringchar   \\`o     ò
+altstringchar   \\`O     Ò
+altstringchar   \\'o     ó
+altstringchar   \\'O     Ó
+altstringchar   \\^o     ô
+altstringchar   \\^O     Ô
+altstringchar   \\`u     ù
+altstringchar   \\`U     Ù
+altstringchar   \\'u     ú
+altstringchar   \\'U     Ú
+altstringchar   \\^u     û
+altstringchar   \\^U     Û
+
+
+# Flags doprâts
+
+# Flag      A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+# Prefix    
+# Sufix     * * * * * * * * *     * * * 
+   
+
+# Flag      a b c d e f g h i j k l m n o p q r s t u v w x y z
+# Prefix    *                                                    
+# Sufix       * * * * * * * *     * * * * *                                                  
+ 
+#--------------------------------------------------------------
+
+
+prefixes
+
+
+flag a:
+#Dome sostantîfs masculins
+#	
+	.	>	l'
+
+
+#--------------------------------------------------------------
+
+
+suffixes		
+
+##### sufìs par sostantîfs e adietîfs #####
+
+flag b:
+#Dome Plurâl
+#
+	[^òàèùìe]	>	s
+	e	>	-e, is
+	ò	>	-ò, ôs
+	à	>	-à, âs
+	è	>	-è, ês
+	ù	>	-ù, ûs
+	ì	>	-ì, îs
+
+	
+flag c:
+#Plurâl t->cj e masculin l,li
+#
+	l	>	-l, i
+	l i	>	-li, i
+	t	>	-t, cj
+
+	
+flag d:
+#Plurâl peraulis che a finissin par vocâl acentade ma cence acent grafic
+#
+	e	>	-e, ês
+	i	>	-i, îs	# gri > grîs
+	u	>	-u, ûs
+	o	>	-o, ôs
+
+
+flag e:
+#Sostantîf/adietîf cun dutis formis m/f/m plur/f plur:
+#modifichis grafichis pe conservazion sun c->ch ç->c s->ss
+#pierdite acents
+#
+	# Plurâl masculin
+	[^lsì]	>	s	
+	l	>	-l, i
+	ì	>	-ì, îs
+	
+	# Singolâr feminin
+	[^çcslì]	>	e	
+	ì	>	-ì, ie
+	ç	>	-ç, ce
+	c	>	he
+	[^àèìòù] s	>	se
+	à s	>	-às, asse
+	è s	>	-ès, esse
+	ò s	>	-òs, osse
+	ù s	>	-ùs, usse
+	[^âêîôû] l	> e
+	â l	>	-âl, ale
+	û l	>	-ûl, ule
+	ê l	>	-êl, ele
+	î l	>	-îl, ile
+	ô l	>	-ôl, ole
+	
+	#Plur fem
+	[^çcslì]	>	is	
+	ì	>	-ì, iis
+	ç	>	-ç, cis
+	c	>	his
+	[^àèìòù] s	>	sis
+	à s	>	-às, assis
+	è s	>	-ès, essis
+	ò s	>	-òs, ossis
+	ù s	>	-ùs, ussis
+	[^âêîôû] l	> is
+	â l	>	-âl, alis
+	û l	>	-ûl, ulis
+	ê l	>	-êl, elis
+	î l	>	-îl, ilis
+	ô l	>	-ôl, olis
+
+	
+flag f:
+#Sostantîf/adietîf cun dutis formis m/f/m plur/f plur
+#sonorizazion vocâls t->d p->b f->v s->s ç->z
+#pierdite acent circonflès
+#
+	# Plurâl masculin
+	[^s]	>	s	
+	
+	# Sing feminin
+	[^âêîôû] s	>	e	
+	û s	>	-ûs, use
+	î s	>	-îs, ise
+	ô s	>	-ôs, ose
+	â s	>	-âs, ase
+	ê s	>	-ês, ese
+	[^âêôî] f	>	-f, ve
+	ê f	>	-êf, eve
+	â f	>	-âf, ave
+	ô f	>	-ôf, ove
+	î f	>	-îf, ive
+	[^îêâû] t	>	-t, de
+	î t	>	-ît, ide
+	ê t	>	-êt, ede
+	â t	>	-ât, ade
+	â t	>	-ât, adis
+	û t	>	-ût, ude
+	p	>	-p, be
+	ç	>	-ç, ze
+	
+	# Plurâl feminin
+	[^âêîôû] s	>	is	
+	û s	>	-ûs, usis
+	î s	>	-îs, isis
+	ô s	>	-ôs, osis
+	â s	>	-âs, asis
+	ê s	>	-ês, esis
+	[^âêôî] f	>	-f, vis
+	ê f	>	-êf, evis
+	â f	>	-âf, avis
+	ô f	>	-ôf, ovis
+	î f	>	-îf, ivis
+	[^îêâû] t	>	-t, dis
+	î t	>	-ît, idis
+	ê t	>	-êt, edis
+	û t	>	-ût, udis
+	p	>	-p, bis
+	ç	>	-ç, zis
+
+	
+flag g:
+#Altris formis: [âêôîû]r->[aeoiu]re/ris e formis alternativis c->gh, t->cj
+#
+	# Plurâl M
+	[^t]	>	s		# clâr > clârs
+	t	>	-t, cj		# just > juscj
+	
+	# Sing F
+	t	>	e		# just > juste
+	â r	>	-âr, are	# clâr > clare
+	ê r	>	-êr, ere
+	ô r	>	-ôr, ore
+	û r	>	-ûr, ure
+	î r	>	-îr, ire
+	[^âêî] c	>	-c, ghe	
+	â c	>	-âc, aghe
+	ê c	>	-êc, eghe
+	î c	>	-îc, ighe	# antîc > antighe
+	
+	# Plur F
+	t	>	is		# just > justis
+	â r	>	-âr, aris	# clâr > claris
+	ê r	>	-êr, eris
+	ô r	>	-ôr, oris
+	û r	>	-ûr, uris
+	î r	>	-îr, iris
+	[^âêî] c	>	-c, ghis
+	â c	>	-âc, aghis
+	ê c	>	-êc, eghis
+	î c	>	-îc, ighis	# antîc > antighis
+
+	
+flag h:
+#Sostantîf/adietîf cun plur masc compagn plur fem
+#Sostantîf/adietîf cun sing masc compagn sing fem
+#
+	.	>	s	# dopli > doplis  civîl > civîls
+	i	>	-i, e	# dopli > dople
+	l	>	-l, i	#		  civîl > civîi
+
+
+flag i:
+#Sostantîfs/adietîfs che a finissin in u/o e che le pierdin tal feminin
+#
+	.	>	s	# vecjo > vecjos
+	u	>	-u, e	
+	u	>	-u, is
+	o	>	-o, e	# vecjo > vecje
+	o	>	-o, is	# vecjo > vecjis
+
+
+flag l:	
+#Cualchi sostantîf/adietîf che a finìs in c
+#	
+	.	>	s	# blanc > blancs
+	.	>	je	# blanc > blancje
+	.	>	jis	# blanc > blancjis
+
+
+flag m:
+	.	>	s
+	î r	>	-îr, irie
+	î r	>	-îr, iriis
+	â r	>	-âr, arie
+	â r	>	-âr, ariis
+
+	
+flag n:
+	l	>	-l, i
+	û l	>	-ûl, ole
+	û l	>	-ûl, olis
+
+	
+flag o:
+	.	>	s
+	î r	>	-îr, iere
+	î r	>	-îr, ieris
+
+	
+flag p:
+	.	>	s
+	î r	>	-îr, ere
+	î r	>	-îr, eris
+
+
+##### sufìs par verps #####	
+
+	
+flag A:
+#Coniugazion â
+#modifichis grafichis pe conservazion sun g->gh c->ch ç->c
+#verps in aiâ,oiâ,uiâ no dople i 
+#
+	# indicatîf presint
+	[^gcçi] â	>	-â, i	
+	[gc] â	>	-â, hi
+	ç â	>	-çâ, ci
+	[^aou] i â	>	-â, i
+	a i â	>	-iâ, i
+	o i â	>	-iâ, i
+	u i â	>	-iâ, i
+	[^gcçi] â	>	-â, is
+	[gc] â	>	-â, his
+	ç â	>	-çâ, cis
+	[^aou] i â	>	-â, is
+	a i â	>	-iâ, is
+	o i â	>	-iâ, is
+	u i â	>	-iâ, is
+	[^gcç] â	>	-â, e
+	[gc] â	>	-â, he
+	ç â	>	-çâ, ce
+	[^gcçi] â	>	-â, ìn
+	[gc] â	>	-â, hìn
+	ç â	>	-çâ, cìn
+	[^aou] i â	>	-â, ìn
+	a i â	>	-iâ, ìn
+	o i â	>	-iâ, ìn
+	u i â	>	-iâ, ìn
+	â	>	-â, ais
+	[^gcçi] â	>	-â, in
+	[gc] â	>	-â, hin
+	ç â	>	-çâ, cin
+	[^aou] i â	>	-â, in
+	a i â	>	-iâ, in
+	o i â	>	-iâ, in
+	u i â	>	-iâ, in
+	
+	# indicatîf imperfet
+	â	>	-â, avi	
+	â	>	-â, avis
+	â	>	-â, ave
+	â	>	-â, avin
+	
+	# indicatîf passât
+	â	>	-â, ai	
+	â	>	-â, aris
+	â	>	-â, à
+	â	>	-â, arin
+	
+	# indicatîf futûr
+	â	>	-â, arai	
+	â	>	-â, arâs
+	â	>	-â, arà
+	â	>	-â, arìn
+	â	>	-â, arês
+	â	>	-â, aran
+	
+	# coniuntîf presint forme edi, prime forme zà in indicat pres
+	[^gcç] â	>	-â, edi	
+	[gc] â	>	-â, hedi
+	ç â	>	-çâ, cedi
+	[^gcç] â	>	-â, edis
+	[gc] â	>	-â, hedis
+	ç â	>	-çâ, cedis
+	[^gcç] â	>	-â, edin
+	[gc] â	>	-â, hedin
+	ç â	>	-çâ, cedin
+	
+	# coniuntîf imperfet 
+	â	>	-â, às
+	â	>	-â, assis
+	â	>	-â, assin
+	
+	# condizionâl presint
+	â	>	-â, arès	
+	â	>	-â, aressis
+	â	>	-â, aressin
+	
+	# participi passât
+	â	>	-â, ât	
+	â	>	-â, âts
+	â	>	-â, ade
+	â	>	-â, adis
+	
+	# gjerundi
+	â	>	-â, ant	
+	
+	# imperatîf
+	â	>	-â, ait	
+	
+	
+	# indicatîf presint forme interogative
+	[^gcçi] â	>	-â, io	
+	[gc] â	>	-â, hio
+	ç â	>	-çâ, cio
+	[^aou] i â	>	-â, io
+	a i â	>	-iâ, io
+	o i â	>	-iâ, io
+	u i â	>	-iâ, io
+	[^gcçi] â	>	-â, istu
+	[gc] â	>	-â, histu
+	ç â	>	-çâ, cistu
+	[^aou] i â	>	-â, istu
+	a i â	>	-iâ, istu
+	o i â	>	-iâ, istu
+	u i â	>	-iâ, istu
+	[^gcçi] â	>	-â, ial
+	[gc] â	>	-â, hial
+	ç â	>	-çâ, cial
+	[^aou] i â	>	-â, ial
+	a i â	>	-iâ, ial
+	o i â	>	-iâ, ial
+	u i â	>	-iâ, ial
+	[^gcçi] â	>	-â, ie
+	[gc] â	>	-â, hie
+	ç â	>	-çâ, cie
+	[^aou] i â	>	-â, ie
+	a i â	>	-iâ, ie
+	o i â	>	-iâ, ie
+	u i â	>	-iâ, ie
+	[^gcçi] â	>	-â, ìno
+	[gc] â	>	-â, hìno
+	ç â	>	-çâ, cìno
+	[^aou] i â	>	-â, ìno
+	a i â	>	-iâ, ìno
+	o i â	>	-iâ, ìno
+	u i â	>	-iâ, ìno
+	â	>	-â, aiso
+	[^gcçi] â	>	-â, ino
+	[gc] â	>	-â, hino
+	ç â	>	-çâ, cino
+	[^aou] i â	>	-â, ino
+	a i â	>	-iâ, ino
+	o i â	>	-iâ, ino
+	u i â	>	-iâ, ino
+	
+	# indicatîf imperfet forme interogative
+	â	>	-â, avio
+	â	>	-â, avistu
+	â	>	-â, avial
+	â	>	-â, avie
+	â	>	-â, avino
+	â	>	-â, aviso
+	
+	# indicatîf passât forme interogative
+	â	>	-â, ario	
+	â	>	-â, aristu
+	â	>	-â, arial
+	â	>	-â, arie
+	â	>	-â, arino
+	â	>	-â, ariso
+	
+	# indicatîf futûr forme interogative
+	â	>	-â, araio
+	â	>	-â, arâstu
+	â	>	-â, araial
+	â	>	-â, araie
+	â	>	-â, arìno
+	â	>	-â, arêso
+	â	>	-â, arano
+	
+	# coniuntîf imperfet forme otative
+	â	>	-â, assio	
+	â	>	-â, assistu
+	â	>	-â, assial
+	â	>	-â, assie
+	â	>	-â, assino
+	â	>	-â, assiso
+	
+	# condizionâl presint forme interogative
+	â	>	-â, aressio	
+	â	>	-â, aressistu
+	â	>	-â, aressial
+	â	>	-â, aressie
+	â	>	-â, aressino
+	â	>	-â, aressiso
+
+	
+flag B:
+#Coniugazion ê: part comun dut fale indicatîf presint e imperatîf
+#
+	# indicatîf imperfet
+	ê	>	-ê, evi	
+	ê	>	-ê, evis
+	ê	>	-ê, eve
+	ê	>	-ê, evin
+	
+	# indicatîf passât
+	ê	>	-ê, ei	
+	ê	>	-ê, eris
+	ê	>	-ê, è
+	ê	>	-ê, erin
+	
+	# indicatîf futûr
+	ê	>	-ê, arai
+	ê	>	-ê, arâs
+	ê	>	-ê, arà
+	ê	>	-ê, arìn
+	ê	>	-ê, arês
+	ê	>	-ê, aran
+	
+	# coniuntîf presint
+	ê	>	-ê, i	
+	ê	>	-ê, edi
+	ê	>	-ê, is
+	ê	>	-ê, edis
+	ê	>	-ê, ìn
+	ê	>	-ê, edin
+	ê	>	-ê, ês
+	ê	>	-ê, in
+	
+	# coniuntîf imperfet
+	ê	>	-ê, ès	
+	ê	>	-ê, essis
+	ê	>	-ê, essin
+	
+	# condizionâl presint
+	ê	>	-ê, arès	
+	ê	>	-ê, aressis
+	ê	>	-ê, aressin
+	
+	# participi passât
+	ê	>	-ê, ût	
+	ê	>	-ê, ûts
+	ê	>	-ê, ude
+	ê	>	-ê, udis
+	
+	# gjerundi
+	ê	>	-ê, int	#  gerundio
+	
+	# indicatîf presint forme interogative
+	ê	>	-ê, io	
+	ê	>	-ê, istu
+	ê	>	-ê, ial
+	ê	>	-ê, ie
+	ê	>	-ê, ìno
+	ê	>	-ê, êso
+	ê	>	-ê, ino
+	
+	# indicatîf imperfet forme interogative
+	ê	>	-ê, evio	
+	ê	>	-ê, evistu
+	ê	>	-ê, evial
+	ê	>	-ê, evie
+	ê	>	-ê, evino
+	ê	>	-ê, eviso
+	
+	# indicatîf passât forme interogative
+	ê	>	-ê, erio	
+	ê	>	-ê, eristu
+	ê	>	-ê, erial
+	ê	>	-ê, erie
+	ê	>	-ê, erino
+	ê	>	-ê, eriso
+	
+	# indicatîf futûr forme interogative
+	ê	>	-ê, araio	
+	ê	>	-ê, arâstu
+	ê	>	-ê, araial
+	ê	>	-ê, araie
+	ê	>	-ê, arìno
+	ê	>	-ê, arêso
+	ê	>	-ê, arano
+	
+	# coniuntîf imperfet forme otative
+	ê	>	-ê, essio	
+	ê	>	-ê, essistu
+	ê	>	-ê, essial
+	ê	>	-ê, essie
+	ê	>	-ê, essino
+	ê	>	-ê, essiso
+	
+	# condizionâl presint forme interogative
+	ê	>	-ê, aressio	
+	ê	>	-ê, aressistu
+	ê	>	-ê, aressial
+	ê	>	-ê, aressie
+	ê	>	-ê, aressino
+	ê	>	-ê, aressiso
+
+	
+flag C:
+#Coniugazion ê: indicatîf presint regolâr + imperatîf
+#
+	# indicatîf presint
+	ê	>	-ê, ""	
+	ê	>	-ê, is
+	ê	>	-ê, ìn
+	ê	>	-ê, ês
+	ê	>	-ê, in
+	
+	# imperatîf
+	ê	>	-ê, êt	
+
+flag D:
+#Coniugazion ê: indicatîf presint cun alterazions
+#
+	# indicatîf presint
+	a d ê	>	-adê, ât
+	e d ê	>	-edê, êt
+	a l ê	>	-alê, âl
+	a r ê	>	-arê, âr
+	a s ê	>	-asê, âs
+	o s ê	>	-osê, ôs
+	ê	>	-ê, is
+	ê	>	-ê, ìn
+	ê	>	-ê, ês
+	ê	>	-ê, in
+	
+	# imperatîf
+	ê	>	-ê, êt	
+
+	
+flag E:
+#Coniugazion i
+#part comun dut mancul indic presint, imperatîf, partici passât
+#
+	# indicatîf imperfet
+	i	>	-i, evi	
+	i	>	-i, evis
+	i	>	-i, eve
+	i	>	-i, evin
+	
+	# indicatîf passât
+	i	>	-i, ei	
+	i	>	-i, eris
+	i	>	-i, è
+	i	>	-i, erin
+	
+	# indicatîf futûr
+	[^c] i	>	-i, arai	
+	c i	>	-ci, çarai
+	[^c] i	>	-i, arâs
+	c i	>	-ci, çarâs
+	[^c] i	>	-i, arà
+	c i	>	-ci, çarà
+	[^c] i	>	-i, arìn
+	c i	>	-ci, çarìn
+	[^c] i	>	-i, arês
+	c i	>	-ci, çarês
+	[^c] i	>	-i, aran
+	c i	>	-ci, çaran
+	
+	# coniuntîf presint dôs formis
+	i	>	-i, i	
+	i	>	-i, edi
+	i	>	-i, is
+	i	>	-i, edis
+	i	>	-i, edi
+	i	>	-i, ìn
+	i	>	-i, edin
+	i	>	-i, ês
+	i	>	-i, in
+	
+	# coniuntîf imperfet
+	i	>	-i, ès
+	i	>	-i, essis
+	i	>	-i, essin
+	
+	# condizionâl presint
+	[^c] i	>	-i, arès	
+	c i	>	-ci, çarès
+	[^c] i	>	-i, aressis
+	c i	>	-ci, çaressis
+	[^c] i	>	-i, aressin
+	c i	>	-ci, çaressin
+	
+	# gjerundi
+	i	>	-i, int	# gerundio
+	
+	# indicatîf presint forme interogative
+	i	>	-i, io	
+	i	>	-i, istu
+	i	>	-i, ial
+	i	>	-i, ie
+	i	>	-i, ìno
+	i	>	-i, êso
+	i	>	-i, ino
+	
+	# indicatîf imperfet forme interogative
+	i	>	-i, evio	
+	i	>	-i, evistu
+	i	>	-i, evial
+	i	>	-i, evie
+	i	>	-i, evino
+	i	>	-i, eviso
+	
+	# indicatîf passât forme interogative
+	i	>	-i, erio	
+	i	>	-i, eristu
+	i	>	-i, erial
+	i	>	-i, erie
+	i	>	-i, erino
+	i	>	-i, eriso
+	
+	# indicatîf futûr forme interogative
+	[^c] i	>	-i, araio	
+	c i	>	-ci, çaraio
+	[^c] i	>	-i, arâstu
+	c i	>	-ci, çarâstu
+	[^c] i	>	-i, araial
+	c i	>	-ci, çaraial
+	[^c] i	>	-i, araie
+	c i	>	-ci, çaraie
+	[^c] i	>	-i, arìno
+	c i	>	-ci, çarìno
+	[^c] i	>	-i, arêso
+	c i	>	-ci, çarêso
+	[^c] i	>	-i, arano
+	c i	>	-ci, çarano
+	
+	# coniuntîf imperfet forme otative
+	i	>	-i, essio	
+	i	>	-i, essistu
+	i	>	-i, essial
+	i	>	-i, essie
+	i	>	-i, essino
+	i	>	-i, essiso
+	
+	# condizionâl presint forme interogative
+	[^c] i	>	-i, aressio	
+	c i	>	-ci, çaressio
+	[^c] i	>	-i, aressistu
+	c i	>	-ci, çaressistu
+	[^c] i	>	-i, aressial
+	c i	>	-ci, çaressial
+	[^c] i	>	-i, aressie
+	c i	>	-ci, çaressie
+	[^c] i	>	-i, aressino
+	c i	>	-ci, çaressino
+	[^c] i	>	-i, aressiso
+	c i	>	-ci, çaressiso
+
+	
+flag F:
+#Coniugazion i + cualchi verp î cun dopli participi
+#prime forme part passât
+#
+	# participi passât
+	[^c] i	>	-i, ût	
+	c i	>	-ci, çût
+	î	>	-î, ût
+	[^c] i	>	-i, ûts
+	c i	>	-ci, çûts
+	î	>	-î, ûts
+	[^c] i	>	-i, ude
+	c i	>	-ci, çude
+	î	>	-î, ude
+	[^c] i	>	-i, udis
+	c i	>	-ci, çudis
+	î	>	-î, udis
+
+	
+flag G:
+#Coniugazion i
+#seconde forme part passât
+#
+	# participi passât
+	[^vzs] i	>	-i, t
+	[^vzs] i	>	-i, ts
+	[^vzs] i	>	-i, te
+	[^vzs] i	>	-i, tis
+	[^u] s i	>	-i, t
+	[^u] s i	>	-i, ts
+	[^u] s i	>	-i, te
+	[^u] s i	>	-i, tis
+	v i	>	-vi, t
+	v i	>	-vi, ts
+	v i	>	-vi, te
+	v i	>	-vi, tis
+	z i	>	-zi, t
+	z i	>	-zi, ts
+	z i	>	-zi, te
+	z i	>	-zi, tis
+	u s i	>	-usi, ot
+	u s i	>	-usi, ots
+	u s i	>	-usi, ote
+	u s i	>	-usi, otis
+
+	
+flag H:
+#Coniugazion i verps che a finissin in ompi,renzi, erizi
+#seconde forme part passât 
+#
+	# participi passât
+	m p i	>	-mpi, t	
+	m p i	>	-mpi, ts
+	m p i	>	-mpi, te
+	m p i	>	-mpi, tis
+	n z i	>	-nzi, t
+	n z i	>	-nzi, ts
+	n z i	>	-nzi, te
+	n z i	>	-nzi, tis
+	i z i	>	-izi, et
+	i z i	>	-izi, ets
+	i z i	>	-izi, ete
+	i z i	>	-izi, etis
+
+
+flag I:
+#Coniugazion i
+#presint+imperatîf
+#
+	# indicatîf presint
+	[^sbdvzc] i	>	-i, ""	
+	s i	>	-si, ""
+	b i	>	-bi, p
+	d i	>	-di, t
+	v i	>	-vi, f
+	z i	>	-zi, ç
+	c i	>	-ci, ç
+	i	>	-i, is
+	i	>	-i, ìn
+	i	>	-i, ês
+	i	>	-i, in
+	
+	# imperatîf
+	i	>	-i, êt	
+
+	
+flag L:
+#Coniugazion i
+#presint+imperatîf slungjament vocâl o acent grafic
+#
+	# indicatîf presint
+	a d i	>	-adi, ât
+	e d i	>	-edi, êt
+	i d i	>	-idi, ît
+	o d i	>	-odi, ôt
+	u d i	>	-udi, ût
+	e v i	>	-evi, êf
+	i v i	>	-ivi, îf
+	o v i	>	-ovi, ôf
+	e z i	>	-ezi, êç
+	i z i	>	-izi, îç
+	u z i	>	-uzi, ûç
+	a s i	>	-asi, âs
+	o s i	>	-osi, ôs
+	u s i	>	-usi, ûs
+	o s s i	>	-ossi, òs
+	e s s i	>	-essi, ès
+	i	>	-i, is
+	i	>	-i, ìn
+	i	>	-i, ês
+	i	>	-i, in
+	
+	# imperatîf
+	i	>	-i, êt
+
+flag M:
+#Coniugazioni î incoatîfs
+#
+	# indicatîf presint
+	î	>	-î, ìs	
+	î	>	-î, issis
+	î	>	-î, ìn
+	î	>	-î, îs
+	î	>	-î, issin
+	
+	# indicatîf imperfet
+	î	>	-î, ivi	
+	î	>	-î, ivis
+	î	>	-î, ive
+	î	>	-î, ivin
+	
+	# indicatîf passât
+	î	>	-î, ii	
+	î	>	-î, iris
+	î	>	-î, ì
+	î	>	-î, irin
+	
+	# indicatîf futûr
+	î	>	-î, irai	
+	î	>	-î, issarai
+	î	>	-î, irâs
+	î	>	-î, issarâs
+	î	>	-î, irà
+	î	>	-î, issarà
+	î	>	-î, irìn
+	î	>	-î, issarìn
+	î	>	-î, irês
+	î	>	-î, issarês
+	î	>	-î, iran
+	î	>	-î, issaran
+	
+	# coniuntîf presint
+	î	>	-î, issi	
+	î	>	-î, edi
+	î	>	-î, edis
+	î	>	-î, edin
+	î	>	-î, ais
+	î	>	-î, in
+	
+	# condizionâl presint
+	î	>	-î, irès	
+	î	>	-î, issarès
+	î	>	-î, iressis
+	î	>	-î, issaressis
+	î	>	-î, iressin
+	î	>	-î, issaressin
+	
+	# participi passât
+	î	>	-î, ît	
+	î	>	-î, îts
+	î	>	-î, ide
+	î	>	-î, idis
+	
+	# gjerundi
+	î	>	-î, int	
+	
+	# indicatîf presint  forme interogative
+	î	>	-î, issio	
+	î	>	-î, issistu
+	î	>	-î, issial
+	î	>	-î, issie
+	î	>	-î, ìno
+	î	>	-î, îso
+	î	>	-î, issino
+	
+	# indicatîf imperfet forme interogative
+	î	>	-î, ivio	
+	î	>	-î, ivistu
+	î	>	-î, ivial
+	î	>	-î, ivie
+	î	>	-î, ivino
+	î	>	-î, iviso
+	
+	# indicatîf passât forme interogative
+	î	>	-î, irio	
+	î	>	-î, iristu
+	î	>	-î, irial
+	î	>	-î, irie
+	î	>	-î, irino
+	î	>	-î, iriso
+	
+	# indicatîf futûr forme interogative
+	î	>	-î, iraio	
+	î	>	-î, issaraio
+	î	>	-î, irâstu
+	î	>	-î, issarâstu
+	î	>	-î, iraial
+	î	>	-î, iraie
+	î	>	-î, issaraial
+	î	>	-î, issaraie
+	î	>	-î, irìno
+	î	>	-î, issarìno
+	î	>	-î, irêso
+	î	>	-î, issarêso
+	î	>	-î, irano
+	î	>	-î, issarano
+	
+	# coniuntîf imperfet forme otative
+	î	>	-î, issio
+	î	>	-î, issistu
+	î	>	-î, issial
+	î	>	-î, issie
+	î	>	-î, issino
+	î	>	-î, issiso
+	
+	# condizionâl presint forme interogative
+	î	>	-î, iressio
+	î	>	-î, issaressio
+	î	>	-î, iressistu
+	î	>	-î, issaressistu
+	î	>	-î, iressial
+	î	>	-î, iressie
+	î	>	-î, issaressial
+	î	>	-î, issaressie
+	î	>	-î, iressino
+	î	>	-î, issaressino
+	î	>	-î, iressiso
+	î	>	-î, issaressiso
+
+flag N:
+#Tignî, vignî e simii
+#
+	# indicatîf presint
+	i g n î	>	-ignî, en	
+	i g n î	>	-ignî, egnis
+	î	>	-î, ìn
+	î	>	-î, îs
+	i g n î	>	-ignî, egnin
+	
+	# indicatîf imperfet
+	î	>	-î, ivi	
+	î	>	-î, ivis
+	î	>	-î, ive
+	î	>	-î, ivin
+	
+	# indicatîf passât
+	î	>	-î, ii	
+	î	>	-î, iris
+	î	>	-î, ì
+	î	>	-î, irin
+	
+	# indicatîf futûr
+	î	>	-î, arai	
+	î	>	-î, arâs
+	î	>	-î, arà
+	î	>	-î, arìn
+	î	>	-î, arês
+	î	>	-î, aran
+	
+	# coniuntîf presint
+	i g n î	>	-ignî, egni	
+	î	>	-î, edi
+	i g n î	>	-ignî, egnis
+	î	>	-î, edis
+	î	>	-î, edin
+	i g n î	>	-ignî, egnin
+	
+	# coniuntîf imperfet
+	î	>	-î, ìs	
+	î	>	-î, issis
+	î	>	-î, issin
+	
+	# condizionâl presint
+	î	>	-î, arès	
+	î	>	-î, aressis
+	î	>	-î, aressin
+	
+	# participi passât
+	î	>	-î, ût	
+	î	>	-î, ûts
+	î	>	-î, ude
+	î	>	-î, udis
+	
+	# gjerundi
+	î	>	-î, int	
+	
+	# imperatîf
+	î	>	-î, ît	
+	
+	# indicatîf presint forme interogative
+	i g n î	>	-ignî, egnio	
+	i g n î	>	-ignî, egnistu
+	i g n î	>	-ignî, egnial
+	i g n î	>	-ignî, egnie
+	î	>	-î, ìno
+	î	>	-î, îso
+	i g n î	>	-ignî, egnino
+	
+	# indicatîf imperfet forme interogative
+	î	>	-î, ivio	
+	î	>	-î, ivistu
+	î	>	-î, ivial
+	î	>	-î, ivie
+	î	>	-î, ivino
+	î	>	-î, iviso
+	
+	# indicatîf passât forme interogative
+	î	>	-î, irio	
+	î	>	-î, iristu
+	î	>	-î, irial
+	î	>	-î, irie
+	î	>	-î, irino
+	î	>	-î, iriso
+	
+	# indicatîf futûr forme interogative
+	î	>	-î, araio	
+	î	>	-î, arâstu
+	î	>	-î, araial
+	î	>	-î, araie
+	î	>	-î, arìno
+	î	>	-î, arêso
+	î	>	-î, arano
+	
+	# coniuntîf imperfet forme otative
+	î	>	-î, issio	
+	î	>	-î, issistu
+	î	>	-î, issial
+	î	>	-î, issie
+	î	>	-î, issino
+	î	>	-î, issiso
+	
+	# condizionâl presint forme interogative
+	î	>	-î, aressio	
+	î	>	-î, aressistu
+	î	>	-î, aressial
+	î	>	-î, aressie
+	î	>	-î, aressino
+	î	>	-î, aressiso
